@@ -24,3 +24,6 @@ def twoDeletions(str):
             e += 1
 
     return len(str) - max(largestSeqArr[0][0] + largestSeqArr[1][0], maxThreeSeq)
+
+print(twoDeletions("aabcccbb")) #should return 2
+print(twoDeletions("aabaa")) #should return 0
